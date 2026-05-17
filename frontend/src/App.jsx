@@ -15,6 +15,7 @@ import SearchedUsers from "./pages/SearchedUsers"
 const App = () => {
   const dispatch = useDispatch();
    const {user} = useSelector((state)=>state.auth)
+   console.log(import.meta.env.VITE_BACKEND_URL)
 
     const {
     data,
