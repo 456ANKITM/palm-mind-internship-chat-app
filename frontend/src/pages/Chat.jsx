@@ -203,7 +203,7 @@ const Chat = () => {
               <h2 className="font-display text-[17px] font-700 tracking-tight text-zinc-900 mb-3">
                 Messages
               </h2>
-              <div className="relative">
+              {/* <div className="relative">
                 <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-400 pointer-events-none" />
                 <input
                   value={searchQuery}
@@ -216,7 +216,7 @@ const Chat = () => {
                     transition-all duration-150
                   "
                 />
-              </div>
+              </div> */}
             </div>
 
             {/* Conversation list */}
